@@ -2,7 +2,7 @@ import requests
 import re
 import pymysql
 
-db=pymysql.connect('localhost','root','126315','petzhang')
+db=pymysql.connect('localhost','root','636458','petzhang')
 cursor=db.cursor()
 
 #1、分析目标网页，确定爬取的url路径，headers参数

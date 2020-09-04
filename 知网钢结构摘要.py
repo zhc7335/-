@@ -30,7 +30,7 @@ for i in range(2010,2020):
             title=re.findall(r'<h2 class="title">(.*?)</h2><a class=',detaildata)
             #抓取摘要
             zhaiyao=re.findall(r'</label><span id="ChDivSummary" name="ChDivSummary">(.*?)</span><span>',detaildata)
-            print(title[0])
+            #print(title[0])
             #with open(f'abstract.txt','a+') as f:
                 #f.write('《')
                 #f.write(title[0])
